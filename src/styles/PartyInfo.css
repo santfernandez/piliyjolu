@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200;300;400;700&family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
+
+@media (min-width: 600px) {
+    .party-info {
+        background-color: #FFF;
+        font-family: 'Denk One', sans-serif;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        padding: 80px 0 60px 0;
+    }
+
+    .party-info-title {
+        margin: 0px;
+        padding-bottom: 50px;
+        color: #2A4671;
+    }
+
+    .party-info-b {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .party-info-title {
+        font-family: 'Galada', cursive;
+        font-size: 4em;
+        color: #C78E4C;
+        order: 1;
+    }
+
+    .party-info-subtitle {
+        font-family: 'Galada', cursive;
+        font-weight: 300;
+        font-size: 2.5em;
+        margin: 0px;
+        padding: 20px 0 0 0;
+        color: #C78E4C;
+    }
+
+    .party-info-row-a {
+        display: flex;
+        order: 1;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .party-info-row-b {
+        display: flex;
+        order: 2;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .party-info-image>img {
+        height: auto;
+        max-width: 8vw;
+    }
+
+    .party-info-b>div>div {
+        width: 20vw;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .party-info-button {
+        background-color: #F5D3A0;
+        border-radius: 40px;
+        color: #000;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2em;
+        width: 100%;
+        padding: 0.5em 0.5em;
+        font-weight: bold;
+        border-style: none;
+        cursor: pointer;
+        min-height: 4vh;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+}
+
+@media (max-width: 600px) {
+    .party-info {
+        background-color: #fff;
+        font-family: 'Galada', cursive;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        margin: 0px;
+        font-size: 1.5em;
+    }
+
+    .party-info-title {
+        font-family: 'Galada', cursive;
+        font-size: 2.5em;
+        order: 1;
+        color: #C78E4C;
+        margin: 0;
+        padding-top: 30px;
+    }
+
+    .party-info-subtitle {
+        font-family: 'Galada', cursive;
+        font-weight: 300;
+        font-size: 2em;
+        margin: 0px;
+        padding: 10px 0 20px 0;
+        color: #C78E4C;
+    }
+
+    .party-info-row-a {
+        display: flex;
+        flex-flow: column;
+        order: 1;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px 25px;
+        gap: 32px;
+    }
+
+    .party-info-button {
+        max-width: 30vw;
+        border-radius: 50px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+
+
+    .party-info-button {
+        background-color: #EDC48C;
+        border-radius: 50px;
+        color: black;
+        padding: 0.5em 0.4em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1em;
+        min-width: 60vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .party-info-image>img {
+        height: auto;
+        max-width: 20vw;
+    }
+
+    .party-dresscode {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

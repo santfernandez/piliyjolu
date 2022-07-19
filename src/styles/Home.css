@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@0;1&display=swap');
+
+
+
+@media (min-width: 600px) {
+
+    .home {
+        background-image: url("https://drive.google.com/uc?export=view&id=1F1T0bNDexUms92cdisBhdu2arpaPWKkp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        animation-duration: 5s;
+        animation-name: zoomIn;
+    }
+
+    .home-content {
+        padding: 50px 0 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 30vh;
+        min-width: 30vw;
+        border-radius: 20px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        animation-duration: 2s;
+        animation-name: zoomIn;
+    }
+
+    @keyframes zoomIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .home-content-a {
+        display: flex;
+    }
+
+    .home-content-b {
+        display: flex;
+
+    }
+
+    .home-content-c {
+        display: flex;
+    }
+
+    .date-and-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-icon {
+        height: auto;
+        max-width: 5vw;
+        animation-duration: 3s;
+        animation-name: ringsSwing;
+        animation-delay: 2s;
+    }
+
+    @keyframes ringsSwing {
+        0% {
+            transform: rotateZ(0);
+        }
+
+        16% {
+            transform: rotateZ(0.2turn);
+        }
+
+        32% {
+            transform: rotateZ(0);
+        }
+
+        48% {
+            transform: rotateZ(-0.2turn);
+        }
+
+        64% {
+            transform: rotateZ(0);
+        }
+
+        80% {
+            transform: rotateZ(0.2turn);
+        }
+
+        96% {
+            transform: rotateZ(0);
+        }
+
+    }
+
+    .home-phrase {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-phrase-text {
+        width: 20vw;
+        font-size: 4em;
+        transform: rotate(5deg);
+    }
+
+    .home-phrase-text>path {
+        fill: transparent;
+    }
+
+    .home-phrase-text>text {
+        font-family: 'Galada', cursive;
+        fill: #2A4671;
+    }
+
+    .home-date {
+        font-family: 'Galada', cursive;
+        padding-top: 200px;
+        font-size: 3em;
+        text-shadow: none;
+        color: #2A4671;
+    }
+
+    .home-title {
+        display: flex;
+        gap: 8px;
+    }
+
+    .home-title>h2 {
+        margin: 0px;
+        font-size: 10em;
+        color: #202949;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 300;
+    }
+
+    .middle-title {
+        margin: 0px;
+        padding-top: 10px;
+        font-size: 8em;
+        color: #202949;
+        font-family: 'Gentium Book Basic', serif;
+        transform: rotate(15.13deg);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .home {
+        background-image: url("https://drive.google.com/uc?export=view&id=1AiQY_FiTXurHJIRuMXwv1TCl27wkpngW");
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation-duration: 5s;
+        animation-name: zoomIn;
+    }
+
+    .home-content {
+        padding: 64px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation-duration: 2s;
+        animation-name: zoomIn;
+    }
+
+    @keyframes zoomIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .home-content-a {
+        padding: 0px 0 0 0;
+    }
+
+    .home-content-b {
+        padding: 0 0 60px 0;
+    }
+
+    .home-content-c {
+        padding: 100px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-empty-div {
+        height: 100px;
+    }
+
+
+    .date-and-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-phrase {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-phrase-text {
+        width: 50vw;
+        font-size: 4em;
+        transform: rotate(5deg);
+    }
+
+    .home-phrase-text>path {
+        fill: transparent;
+    }
+
+    .home-phrase-text>text {
+        font-family: 'Galada', cursive;
+        fill: #2A4671;
+    }
+
+    .home-icon {
+        height: auto;
+        max-width: 10vw;
+        animation-duration: 3s;
+        animation-name: ringsSwing;
+        animation-delay: 2s;
+    }
+
+    @keyframes ringsSwing {
+        0% {
+            transform: rotateZ(0);
+        }
+
+        16% {
+            transform: rotateZ(0.2turn);
+        }
+
+        32% {
+            transform: rotateZ(0);
+        }
+
+        48% {
+            transform: rotateZ(-0.2turn);
+        }
+
+        64% {
+            transform: rotateZ(0);
+        }
+
+        80% {
+            transform: rotateZ(0.2turn);
+        }
+
+        96% {
+            transform: rotateZ(0);
+        }
+
+    }
+
+
+    .home-date {
+        font-family: 'Galada', cursive;
+        margin-top: 50px;
+        font-size: 1.5em;
+        text-shadow: none;
+        color: #2A4671;
+    }
+
+    .home-title {
+        display: flex;
+        gap: 8px;
+    }
+
+    .home-title>h2 {
+        margin: 0px;
+        font-size: 3.7em;
+        color: #202949;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 300;
+    }
+
+    .middle-title {
+        margin: 0px;
+        padding-top: 10px;
+        font-size: 2.7em;
+        color: #202949;
+        font-family: 'Gentium Book Basic', serif;
+        transform: rotate(15.13deg);
+    }
+
+
+
+}

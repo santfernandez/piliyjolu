@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+
+
+@media (min-width: 600px) {
+    .countdown {
+        min-height: 30vh;
+        color: #2A4671;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .countdown-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .countdown-container>p {
+        font-family: 'Galada', cursive;
+    }
+
+    .countdown-container>span {
+        font-family: 'Encode Sans Condensed', sans-serif;
+    }
+
+
+    .countdown-container-row-a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .countdown-container-row-b {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .number-container {
+        background-color: #FFFBF7;
+        border-radius: 5px;
+        color: #2A4671;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        padding: 0.5em 0.5em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2em;
+        min-width: 10vw;
+        font-weight: bold;
+        box-shadow: 2px 4px 14px rgba(0, 0, 0, 0.25);
+    }
+
+    .number-container>p {
+        margin: 0px;
+        font-family: 'Galada', cursive;
+        font-size: 1.5em;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .countdown {
+        min-height: 25vh;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .countdown-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+
+    .countdown-container-row-a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 16px
+    }
+
+    .countdown-container-row-b {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 16px
+    }
+
+    .number-container {
+        background-color: #FFFBF7;
+        border-radius: 5px;
+        box-sizing: border-box;
+        color: #2A4671;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        padding: 0.2em 0.2em;
+        font-size: 1.2em;
+        width: 20vw;
+        height: 15vh;
+        font-weight: bold;
+        box-shadow: 2px 4px 14px rgba(0, 0, 0, 0.25);
+    }
+
+    .number-container>p {
+        margin: 0px;
+        font-family: 'Galada', cursive;
+        font-size: 1.7em;
+        justify-content: center;
+    }
+}

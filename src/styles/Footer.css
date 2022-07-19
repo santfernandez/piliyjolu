@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@700&display=swap');
+
+@media (min-width: 600px) {
+    .footer-container {
+        background-image: url("https://drive.google.com/uc?export=view&id=1JJyioRfD-QidORssJCRWynl5RTFhSFnr");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: #465E82;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 30vh;
+    }
+
+    .footer-lenaria {
+        padding: 10px 20px;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: 700;
+        color: #000;
+        font-size: 2em;
+    }
+
+
+    .footer-link:link,
+    .footer-link:visited {
+        font-family: 'Encode Sans', sans-serif;
+        color: #fff;
+        text-decoration: none;
+        padding-right: 5px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        background-image: url("https://drive.google.com/uc?export=view&id=1JJyioRfD-QidORssJCRWynl5RTFhSFnr");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: #465E82;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 15vh;
+    }
+
+    .footer-lenaria {
+        padding: 10px 20px;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: 700;
+        color: #000;
+    }
+
+
+    .footer-link:link,
+    .footer-link:visited {
+        font-family: 'Encode Sans', sans-serif;
+        color: #fff;
+        text-decoration: none;
+        padding-right: 5px;
+    }
+
+}

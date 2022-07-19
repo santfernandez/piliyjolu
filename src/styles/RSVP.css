@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@200;300;400;700&family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+@media (min-width: 600px) {
+    .rsvp-container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .rsvp {
+        background-color: #FFFBF7;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+        color: #2A4671;
+        padding: 32px;
+        min-height: 230px;
+        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+        margin: 10px 0 90px 0;
+        width: 70%;
+    }
+
+    .rsvp-title {
+        font-family: 'Galada', cursive;
+        font-size: 4em;
+    }
+
+    .rsvp-info {
+        font-family: 'Galada', cursive;
+        font-size: 2.5em;
+        margin: 0px;
+        padding-top: 8px;
+    }
+
+    .rsvp-button {
+        background-color: #465E82;
+        border-radius: 50px;
+        color: #fff;
+        padding: 0.5em 0.4em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.7em;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: 700;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 35px;
+        min-width: 30vw;
+    }
+
+    .rsvp-button>a>p {
+        margin: 0;
+    }
+
+    .rsvp-link:link,
+    .rsvp-link:visited {
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .rsvp {
+        background-color: #FFFBF7;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+        color: #2A4671;
+        padding: 16px;
+        min-height: 230px;
+        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+        margin: 10px 0;
+    }
+
+    .rsvp-title {
+        font-family: 'Galada', cursive;
+        font-size: 2.5em;
+    }
+
+    .rsvp-info {
+        font-family: 'Galada', cursive;
+        font-size: 1.5em;
+        margin: 0px;
+        padding-top: 8px;
+    }
+
+    .rsvp-button {
+        background-color: #465E82;
+        border-radius: 50px;
+        color: #fff;
+        padding: 0.2em 0.4em;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: 700;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 35px;
+        min-width: 50vw;
+    }
+
+    .rsvp-button>a>p {
+        margin: 0;
+    }
+
+    .rsvp-link:link,
+    .rsvp-link:visited {
+        color: #000;
+        text-decoration: none;
+    }
+}
