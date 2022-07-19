@@ -17,7 +17,7 @@ const VenueInfo = () => {
             </div>
             <div className="venue-info-day">
               <h4 className="venue-info-list-title">Día</h4>
-              <p>13 de agosto de 2022</p>
+              <p>27 de agosto de 2022</p>
             </div>
             <div className="venue-info-hour">
               <h4 className="venue-info-list-title">Hora</h4>
@@ -25,11 +25,11 @@ const VenueInfo = () => {
             </div>
             <div className="venue-info-venue">
               <h4 className="venue-info-list-title">Lugar</h4>
-              <p>Parroquia San Martín</p>
+              <p>Capilla San Cristóbal</p>
             </div>
             <div className="venue-info-address">
               <h4 className="venue-info-list-title">Dirección</h4>
-              <p>Castro Barros 81, SM de Tucumán</p>
+              <p>Lobo de la Vega y Perú, Yerba Buena</p>
             </div>
           </div>
           <div className="venue-info-button">
@@ -37,7 +37,7 @@ const VenueInfo = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://goo.gl/maps/pjtvbVfHYsN4ER9s7"
+                href="https://goo.gl/maps/z9T59hdvMKJCaQ3P8"
               >
                 Cómo llegar
               </a>
@@ -56,7 +56,7 @@ const VenueInfo = () => {
             </div>
             <div className="venue-info-day">
               <h4 className="venue-info-list-title">Día</h4>
-              <p>13 de agosto de 2022</p>
+              <p>27 de agosto de 2022</p>
             </div>
             <div className="venue-info-hour">
               <h4 className="venue-info-list-title">Hora</h4>
@@ -64,11 +64,11 @@ const VenueInfo = () => {
             </div>
             <div className="venue-info-venue">
               <h4 className="venue-info-list-title">Lugar</h4>
-              <p>Florentina Eventos</p>
+              <p>Terrazas de San José</p>
             </div>
             <div className="venue-info-addres">
               <h4 className="venue-info-list-title">Dirección</h4>
-              <p>Av. Aconquija 3017, Yerba Buena</p>
+              <p>Av. Pte. Perón 2400, Yerba Buena</p>
             </div>
           </div>
           <div className="venue-info-button">
@@ -76,7 +76,7 @@ const VenueInfo = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://goo.gl/maps/WUa6KaeUT85DWeNV9"
+                href="https://goo.gl/maps/hXqhCPAdV3GPDZuK6"
               >
                 Cómo llegar
               </a>

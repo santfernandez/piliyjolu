@@ -39,6 +39,7 @@ const Countdown = () => {
   }, []);
   return (
     <div className="countdown">
+      <p className="countdown-phrase">“El cielo ha consipirado a nuestro favor...”</p>
       <div className="countdown-container">
         <div className="countdown-container-row-a">
           <div className="number-container">

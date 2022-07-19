@@ -4,7 +4,7 @@
 
 @media (min-width: 600px) {
     .party-info {
-        background-color: #FFF;
+        background-color: #F8FAFA;
         font-family: 'Denk One', sans-serif;
         min-height: 50vh;
         display: flex;
@@ -15,7 +15,7 @@
     .party-info-title {
         margin: 0px;
         padding-bottom: 50px;
-        color: #2A4671;
+        color: #000;
     }
 
     .party-info-b {
@@ -28,7 +28,7 @@
     .party-info-title {
         font-family: 'Galada', cursive;
         font-size: 4em;
-        color: #C78E4C;
+        color: #000;
         order: 1;
     }
 
@@ -38,7 +38,7 @@
         font-size: 2.5em;
         margin: 0px;
         padding: 20px 0 0 0;
-        color: #C78E4C;
+        color: #2A7168;
     }
 
     .party-info-row-a {
@@ -70,7 +70,7 @@
 
 
     .party-info-button {
-        background-color: #F5D3A0;
+        background-color: #CDE2BC;
         border-radius: 40px;
         color: #000;
         font-family: 'Encode Sans Condensed', sans-serif;
@@ -90,7 +90,7 @@
 
 @media (max-width: 600px) {
     .party-info {
-        background-color: #fff;
+        background-color: #F8FAFA;
         font-family: 'Galada', cursive;
         min-height: 50vh;
         display: flex;
@@ -106,7 +106,7 @@
         font-family: 'Galada', cursive;
         font-size: 2.5em;
         order: 1;
-        color: #C78E4C;
+        color: #000;
         margin: 0;
         padding-top: 30px;
     }
@@ -117,7 +117,7 @@
         font-size: 2em;
         margin: 0px;
         padding: 10px 0 20px 0;
-        color: #C78E4C;
+        color: #2A7168;
     }
 
     .party-info-row-a {
@@ -139,7 +139,7 @@
 
 
     .party-info-button {
-        background-color: #EDC48C;
+        background-color: #CDE2BC;
         border-radius: 50px;
         color: black;
         padding: 0.5em 0.4em;

@@ -2,7 +2,7 @@
 
 @media (min-width: 600px) {
     .venue-info {
-        background-color: #FFF;
+        background-color: #F8FAFA;
         font-family: 'Encode Sans Condensed', sans-serif;
         min-height: 50vh;
         display: flex;
@@ -43,7 +43,7 @@
     .venue-info-event>h2 {
         font-family: 'Galada', cursive;
         font-size: 2em;
-        color: #C78E4C;
+        color: #2A7168;
         padding-top: 16px;
     }
 
@@ -54,7 +54,7 @@
     }
 
     .venue-info-button>button {
-        background-color: #F5D3A0;
+        background-color: #CDE2BC;
         border-radius: 50px;
         padding: 0.5em 0.5em;
         text-align: center;
@@ -91,7 +91,7 @@
 
 @media (max-width: 600px) {
     .venue-info {
-        background-color: #FFF;
+        background-color: #F8FAFA;
         font-family: 'Encode Sans Condensed', sans-serif;
         min-height: 50vh;
         display: flex;
@@ -141,7 +141,7 @@
 
     .venue-info-event>h2 {
         font-family: 'Galada', cursive;
-        color: #C78E4C;
+        color: #2A7168;
     }
 
     .venue-info-list-title {
@@ -161,7 +161,7 @@
     }
 
     .venue-info-button>button {
-        background-color: #EDC48C;
+        background-color: #CDE2BC;
         border-radius: 50px;
         color: black;
         padding: 0.5em 0.4em;

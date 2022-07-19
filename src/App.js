@@ -4,8 +4,6 @@ import Home from "./sections/Home";
 import Countdown from "./sections/Countdown";
 import VenueInfo from "./sections/VenueInfo";
 import RSVP from "./sections/RSVP";
-import AboutUs from "./sections/AboutUs";
-import ImageCarousel from "./sections/ImageCarousel";
 import PartyInfo from "./sections/PartyInfo";
 import Instagram from "./sections/Instagram";
 import Greetings from "./sections/Greetings";
@@ -18,8 +16,6 @@ function App() {
       <Countdown />
       <VenueInfo />
       <RSVP />
-      <AboutUs />
-      <ImageCarousel />
       <PartyInfo />
       <Instagram />
       <Greetings />

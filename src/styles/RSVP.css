@@ -12,13 +12,13 @@
     }
 
     .rsvp {
-        background-color: #FFFBF7;
+        background-color: rgba(222, 232, 191, 0.57);
         display: flex;
         flex-flow: column;
         align-items: center;
         justify-content: center;
         order: 1;
-        color: #2A4671;
+        color: #2A7168;
         padding: 32px;
         min-height: 230px;
         box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
@@ -39,7 +39,7 @@
     }
 
     .rsvp-button {
-        background-color: #465E82;
+        background-color: #2A7168;
         border-radius: 50px;
         color: #fff;
         padding: 0.5em 0.4em;
@@ -61,20 +61,20 @@
 
     .rsvp-link:link,
     .rsvp-link:visited {
-        color: #000;
+        color: #fff;
         text-decoration: none;
     }
 }
 
 @media (max-width: 600px) {
     .rsvp {
-        background-color: #FFFBF7;
+        background-color: rgba(222, 232, 191, 0.57);
         display: flex;
         flex-flow: column;
         align-items: center;
         justify-content: center;
         order: 1;
-        color: #2A4671;
+        color: #2A7168;
         padding: 16px;
         min-height: 230px;
         box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
@@ -94,7 +94,7 @@
     }
 
     .rsvp-button {
-        background-color: #465E82;
+        background-color: #2A7168;
         border-radius: 50px;
         color: #fff;
         padding: 0.2em 0.4em;
@@ -115,7 +115,7 @@
 
     .rsvp-link:link,
     .rsvp-link:visited {
-        color: #000;
+        color: #fff;
         text-decoration: none;
     }
 }
