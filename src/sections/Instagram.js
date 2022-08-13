@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/Instagram.css";
+import InstagramLogo from '../img/instagram-logo.webp'
 
 const Instagram = () => {
   return (
     <div className="instagram-section">
       <div className="instagram-section-image">
         <img
-          src={`https://drive.google.com/uc?export=view&id=1YnO08SvE8b7GFODyXPAyehslFudQop_9`}
+          src={InstagramLogo}
         />
       </div>
       <div className="instagram-section-hashtag">
@@ -19,7 +20,7 @@ const Instagram = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.instagram.com/explore/tags/joacoysofi/?hl=es"
+          href="https://www.instagram.com/explore/tags/piliyjolu/?hl=es"
           className="instagram-link"
         >
           <p>Ver en Instagram</p>

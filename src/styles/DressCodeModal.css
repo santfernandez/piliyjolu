@@ -72,7 +72,7 @@
         background-color: rgba(122, 112, 112, 0.815);
         z-index: 1000;
         animation-name: pulse;
-        animation-duration: 1.5s;
+        animation-duration: 1.1s;
     }
 
     .dresscode-modal {
@@ -92,7 +92,7 @@
         z-index: 1000;
         text-align: center;
         animation-name: pulse;
-        animation-duration: 2s;
+        animation-duration: 1.3s;
     }
 
     @keyframes pulse {

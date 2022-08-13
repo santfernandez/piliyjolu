@@ -10,7 +10,7 @@ const Countdown = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("Aug 27, 2022 17:00:00:00").getTime();
+    const countdownDate = new Date("Aug 27, 2022 12:00:00:00").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -39,7 +39,6 @@ const Countdown = () => {
   }, []);
   return (
     <div className="countdown">
-      <p className="countdown-phrase">“El cielo ha consipirado a nuestro favor...”</p>
       <div className="countdown-container">
         <div className="countdown-container-row-a">
           <div className="number-container">

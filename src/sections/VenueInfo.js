@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../styles/VenueInfo.css";
+import Church from '../img/church.webp'
+import Toast from '../img/toast.webp'
 
 const VenueInfo = () => {
   return (
@@ -8,7 +10,7 @@ const VenueInfo = () => {
         <div className="ceremony">
           <div className="venue-info-image">
             <img
-              src={`https://drive.google.com/uc?export=view&id=1uEkGHjrKWitlUUMP2pLrSnUvVtiff0AG`}
+              src={Church}
             />
           </div>
           <div className="venue-info-content">
@@ -47,7 +49,7 @@ const VenueInfo = () => {
         <div className="party">
           <div className="venue-info-image">
             <img
-              src={`https://drive.google.com/uc?export=view&id=18lMTNIsrqCLCrhTa-YHEkDHkm-e5uIeI`}
+              src={Toast}
             />
           </div>
           <div className="venue-info-content">
@@ -66,7 +68,7 @@ const VenueInfo = () => {
               <h4 className="venue-info-list-title">Lugar</h4>
               <p>Terrazas de San José</p>
             </div>
-            <div className="venue-info-addres">
+            <div className="venue-info-address">
               <h4 className="venue-info-list-title">Dirección</h4>
               <p>Av. Pte. Perón 2400, Yerba Buena</p>
             </div>

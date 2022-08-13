@@ -6,12 +6,12 @@ const RSVP = () => {
     <div className="rsvp-container">
       <div className="rsvp">
         <h2 className="rsvp-title">Asistencia</h2>
-        <p className="rsvp-info">Confirmar antes del 30 julio</p>
+        <p className="rsvp-info">Confirmar antes del 13 de agosto</p>
         <button type="button" className="rsvp-button">
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScCKG7CQCAkjVcTWvj0w_xnPICWaQZKLGdgM26OSJwOGzXx8A/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfBsJ9zCOEgW-dCjGXtaWwsoYTkPw1UZbe3Uay7L00ZkTFhiw/viewform"
             className="rsvp-link"
           >
             Confirmar

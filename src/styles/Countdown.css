@@ -11,6 +11,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-color:#FFFBF7;
     }
 
     .countdown-container {
@@ -21,12 +22,6 @@
         gap: 80px;
     }
     
-    .countdown-phrase {
-        color: #B2C5B7;
-        font-size: 1.4em;
-        font-family: 'Galada', cursive;
-        padding: 32px 8px;
-    }
 
     .countdown-container>p {
         font-family: 'Galada', cursive;
@@ -54,9 +49,9 @@
     }
 
     .number-container {
-        background-color: #DEE8BF;
+        background-color: #ffffff;
         border-radius: 5px;
-        color: #42583D;
+        color: #2A7168;
         font-family: 'Encode Sans Condensed', sans-serif;
         padding: 0.5em 0.5em;
         text-align: center;
@@ -82,15 +77,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #fff;
+        background-color:#FFFBF7;
     }
 
-    .countdown-phrase {
-        color: #B2C5B7;
-        font-size: 1.4em;
-        font-family: 'Galada', cursive;
-        padding: 32px 8px;
-    }
+    
 
     .countdown-container {
         display: flex;
@@ -118,26 +108,29 @@
     }
 
     .number-container {
-        background-color: #DEE8BF;
-        border-radius: 5px;
+        background-color: #ffffff;
+        border-radius: 20px;
         box-sizing: border-box;
-        color: #42583D;
+        color: #2A7168;
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-family: 'Encode Sans Condensed', sans-serif;
-        padding: 0.2em 0.2em;
-        font-size: 1.5em;
+        padding: 0.3em 0.2em;
+        font-size: 1.4em;
         width: 20vw;
         height: 20vh;
         font-weight: bold;
+        line-height: 35px;
         box-shadow: 2px 4px 14px rgba(0, 0, 0, 0.25);
     }
 
     .number-container>p {
         margin: 0px;
+        padding-top: 10px;
         font-family: 'Galada', cursive;
-        font-size: 1.7em;
+        font-size: 1.8em;
         justify-content: center;
     }
+
 }

@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../styles/Home.css";
+import Rings from '../img/wedding-rings.webp'
+
 
 const Home = () => {
   return (
@@ -9,7 +11,7 @@ const Home = () => {
           <div className="date-and-icon">
             <img
               className="home-icon"
-              src={`https://drive.google.com/uc?export=view&id=1pyQr_TMOb5REBhjjJ2yZwy5PTzeFaEyp`}
+              src={Rings}
               alt="wedding rings blending"
             />
             <div className="home-phrase">
@@ -24,6 +26,9 @@ const Home = () => {
             <h2 className="middle-title">&</h2>
             <p>José</p>
           </div>
+        </div>
+        <div className="home-content-c">
+        <p className="home-down-phrase">“El cielo ha conspirado a nuestro favor...”</p>
         </div>
         </div>
     </div>

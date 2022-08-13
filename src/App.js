@@ -8,8 +8,12 @@ import PartyInfo from "./sections/PartyInfo";
 import Instagram from "./sections/Instagram";
 import Greetings from "./sections/Greetings";
 import Footer from "./sections/Footer";
+import LastPhoto from "./sections/LastPhoto";
+
+
 
 function App() {
+
   return (
     <div className="App">
       <Home />
@@ -19,6 +23,7 @@ function App() {
       <PartyInfo />
       <Instagram />
       <Greetings />
+      <LastPhoto />
       <Footer />
     </div>
   );

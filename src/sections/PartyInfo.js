@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "../styles/PartyInfo.css";
 import DressCodeModal from "../components/DressCodeModal";
-import MusicModal from "../components/MusicModal";
 import GiftModal from "../components/GiftModal";
+import Dresscode from '../img/dresscode.webp'
+import Gift from '../img/gift.webp'
 
 const PartyInfo = () => {
   const [dresscodeIsOpen, setDresscodeIsOpen] = useState(false);
@@ -15,29 +16,10 @@ const PartyInfo = () => {
       </div>
       <div className="party-info-b">
         <div className="party-info-row-a">
-          <div className="party-music">
-            <div className="party-info-image">
-              <img
-                src={`https://drive.google.com/uc?export=view&id=1wy4o1LVet1O2JL5g7E7O1DpK-9spAFgh`}
-              />
-            </div>
-            <h2 className="party-info-subtitle">Música</h2>
-            <button
-              type="button"
-              className="party-info-button"
-              onClick={() => setMusicIsOpen(true)}
-            >
-              ¿Qué cancion no debería faltar?
-            </button>
-            <MusicModal
-              open={musicIsOpen}
-              onClose={() => setMusicIsOpen(false)}
-            ></MusicModal>
-          </div>
           <div className="party-dresscode">
             <div className="party-info-image">
               <img
-                src={`https://drive.google.com/uc?export=view&id=1GyW5Ih5eb80oZd9PGjeZ0kpym2M8ZwZZ`}
+                src={Dresscode}
               />
             </div>
             <h2 className="party-info-subtitle">Dress Code</h2>
@@ -59,7 +41,7 @@ const PartyInfo = () => {
           <div className="party-gifts">
             <div className="party-info-image">
               <img
-                src={`https://drive.google.com/uc?export=view&id=1_Rky4oUVU4GVFkqn9hwu9M_wYYt5Eqh1`}
+                src={Gift}
               />
             </div>
             <h2 className="party-info-subtitle">Regalos</h2>

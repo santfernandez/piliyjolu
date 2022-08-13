@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "../styles/DressCodeModal.css";
+import Dresscode from '../img/dresscode-modal.webp'
 
 export default function DressCodeModal({ open, onClose }) {
   if (!open) return null;
@@ -14,7 +15,7 @@ export default function DressCodeModal({ open, onClose }) {
           </button>
           <img
             className="dresscode-modal-image"
-            src={`http://drive.google.com/uc?export=view&id=1D_2njiuszE_8fFsYxaYjeG6FKnx5QTQk`}
+            src={Dresscode}
           />
           <h1 className="dresscode-modal-tag">Elegante</h1>
         </div>

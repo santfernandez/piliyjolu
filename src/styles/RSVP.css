@@ -12,27 +12,29 @@
     }
 
     .rsvp {
-        background-color: rgba(222, 232, 191, 0.57);
+        background-color: #FFF5E5;
         display: flex;
         flex-flow: column;
         align-items: center;
         justify-content: center;
         order: 1;
-        color: #2A7168;
+        color: #000;
         padding: 32px;
         min-height: 230px;
         box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
         margin: 10px 0 90px 0;
         width: 70%;
+        border-radius: 50px;
     }
 
     .rsvp-title {
         font-family: 'Galada', cursive;
         font-size: 4em;
+        margin: 0;
     }
 
     .rsvp-info {
-        font-family: 'Galada', cursive;
+        font-family: 'Denk One', sans-serif;
         font-size: 2.5em;
         margin: 0px;
         padding-top: 8px;
@@ -46,13 +48,13 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 1.7em;
+        font-size: 2.5em;
         font-family: 'Encode Sans Condensed', sans-serif;
         font-weight: 700;
         border-style: none;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         margin-top: 35px;
-        min-width: 30vw;
+        min-width: 20vw;
     }
 
     .rsvp-button>a>p {
@@ -68,29 +70,30 @@
 
 @media (max-width: 600px) {
     .rsvp {
-        background-color: rgba(222, 232, 191, 0.57);
+        background-color: #FFF5E5;
         display: flex;
         flex-flow: column;
         align-items: center;
         justify-content: center;
         order: 1;
-        color: #2A7168;
+        color: #000;
         padding: 16px;
         min-height: 230px;
         box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
         margin: 10px 0;
+        line-height: 30px;
     }
 
     .rsvp-title {
         font-family: 'Galada', cursive;
         font-size: 2.5em;
+        margin: 0;
     }
 
     .rsvp-info {
-        font-family: 'Galada', cursive;
-        font-size: 1.5em;
+        font-family: 'Denk One', sans-serif;
+        font-size: 1.3em;
         margin: 0px;
-        padding-top: 8px;
     }
 
     .rsvp-button {
@@ -100,7 +103,7 @@
         padding: 0.2em 0.4em;
         text-align: center;
         text-decoration: none;
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-family: 'Encode Sans Condensed', sans-serif;
         font-weight: 700;
         border-style: none;

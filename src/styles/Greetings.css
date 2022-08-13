@@ -1,14 +1,15 @@
 @media (min-width: 600px) {
 
     .greetings {
-        min-height: 50vh;
+        background-color:#FFFBF7;
+        height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .greetings-phrase {
-        color: #2A7168;
+        color: #AAAAAA;
         font-family: 'Galada', cursive;
         font-size: 4em;
     }
@@ -18,14 +19,15 @@
 @media (max-width: 600px) {
 
     .greetings {
-        min-height: 60vh;
+        background-color:#FFFBF7;
+        min-height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .greetings-phrase {
-        color: #2A7168;
+        color: #AAAAAA;
         font-family: 'Galada', cursive;
         font-size: 2.8em;
     }

@@ -3,7 +3,7 @@
 
 @media (min-width: 600px) {
     .footer-container {
-        background-color: #CDE2BC;
+        background-color: #FFF5E5;
         text-align: center;
         display: flex;
         align-items: center;
@@ -23,7 +23,7 @@
     .footer-link:link,
     .footer-link:visited {
         font-family: 'Encode Sans', sans-serif;
-        color: #fff;
+        color: #575737;
         text-decoration: none;
         padding-right: 5px;
         font-size: 1em;
@@ -32,7 +32,7 @@
 
 @media (max-width: 600px) {
     .footer-container {
-        background-color: #CDE2BC;
+        background-color: #FFF5E5;
         text-align: center;
         display: flex;
         align-items: center;
@@ -51,7 +51,7 @@
     .footer-link:link,
     .footer-link:visited {
         font-family: 'Encode Sans', sans-serif;
-        color: #fff;
+        color: #575737;
         text-decoration: none;
         padding-right: 5px;
     }

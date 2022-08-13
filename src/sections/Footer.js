@@ -9,7 +9,7 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="mailto:lenariadesign@gmail.com"
+            href="https://lenaria.com.ar"
             className="footer-link"
           >
             Lenaria

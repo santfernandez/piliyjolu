@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8718ad5.css",
+    "main.js": "/static/js/main.02762c58.js",
+    "static/js/787.09b8a5fd.chunk.js": "/static/js/787.09b8a5fd.chunk.js",
+    "static/media/right.svg": "/static/media/right.e39404f03632db166dd0.svg",
+    "static/media/left.svg": "/static/media/left.5c8a7e0eacdfb03fa3b8.svg",
+    "static/media/home-background-desktop.webp": "/static/media/home-background-desktop.103623055d9aa127f8f6.webp",
+    "static/media/last-photo-background.webp": "/static/media/last-photo-background.658126e32d9b1a174e4f.webp",
+    "static/media/instagram-background.webp": "/static/media/instagram-background.f756eb78dd9ad48417ca.webp",
+    "static/media/dresscode-modal.webp": "/static/media/dresscode-modal.c30c82093093279fbc29.webp",
+    "static/media/toast.webp": "/static/media/toast.6753b297c6d10a2c4f9b.webp",
+    "static/media/dresscode.webp": "/static/media/dresscode.576d49d1d9c84ebc677e.webp",
+    "static/media/instagram-logo.webp": "/static/media/instagram-logo.ec77433abf8b8d7ca78b.webp",
+    "static/media/church.webp": "/static/media/church.dedb8ef3aff7a4d47257.webp",
+    "static/media/gift.webp": "/static/media/gift.ff4c777b5d6ef2151d2d.webp",
+    "static/media/letter.webp": "/static/media/letter.6e01b4730206048efa42.webp",
+    "static/media/wedding-rings.webp": "/static/media/wedding-rings.417687745ab9c8f84b01.webp",
+    "index.html": "/index.html",
+    "main.e8718ad5.css.map": "/static/css/main.e8718ad5.css.map",
+    "main.02762c58.js.map": "/static/js/main.02762c58.js.map",
+    "787.09b8a5fd.chunk.js.map": "/static/js/787.09b8a5fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8718ad5.css",
+    "static/js/main.02762c58.js"
+  ]
+}
